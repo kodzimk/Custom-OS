@@ -15,11 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.c">
+    <ClCompile Include="src\kernel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\loader.s" />
   </ItemGroup>
 </Project>
